@@ -3015,5 +3015,249 @@ IANA(The Internet Assigned Numbers Authority，互联网数字分配机构)是�
 </tr>
 </table>
 
+### 未注册的端口
+
+一个未注册的端口列表
+
+这些端口可能被安装在你的红帽企业 Linux 系统上的服务或协议使用，或者它们是在红帽企业 Linux 和运行其它操作系统的机器通信所必需的端口
+
+<table>
+<tr>
+<th>端口号码 / 层</th>
+<th>名称</th>
+<th>注释</th>
+</tr>
+<tr>
+<td>15/tcp </td>
+<td>netstat </td>
+<td>网络状态（netstat） </td>
+</tr>
+<tr>
+<td>98/tcp </td>
+<td>linuxconf </td>
+<td>Linuxconf Linux 管理工具 </td>
+</tr>
+<tr>
+<td>106 </td>
+<td>poppassd </td>
+<td>邮局协议口令改变守护进程（POPPASSD） </td>
+</tr>
+<tr>
+<td>465/tcp </td>
+<td>smtps </td>
+<td>通过安全套接字层的简单邮件传输协议（SMTPS） </td>
+</tr>
+<tr>
+<td>616/tcp </td>
+<td>gii </td>
+<td>使用网关的（选路守护进程）互动界面 </td>
+</tr>
+<tr>
+<td>808 </td>
+<td>omirr [omirrd] </td>
+<td>联机镜像（Omirr）文件镜像服务 </td>
+</tr>
+<tr>
+<td>871/tcp </td>
+<td>supfileserv </td>
+<td>软件升级协议（SUP）服务器 </td>
+</tr>
+<tr>
+<td>901/tcp </td>
+<td>swat </td>
+<td>Samba 万维网管理工具（SWAT） </td>
+</tr>
+<tr>
+<td>953 </td>
+<td>rndc </td>
+<td>Berkeley 互联网名称域版本9（BIND 9）远程名称守护进程配置工具 </td>
+</tr>
+<tr>
+<td>1127 </td>
+<td>sufiledbg </td>
+<td>软件升级协议（SUP）调试 </td>
+</tr>
+<tr>
+<td>1178/tcp </td>
+<td>skkserv </td>
+<td>简单假名到汉字（SKK）日文输入服务器 </td>
+</tr>
+<tr>
+<td>1313/tcp </td>
+<td>xtel </td>
+<td>法国 Minitel 文本信息系统 </td>
+</tr>
+<tr>
+<td>1529/tcp </td>
+<td>support [prmsd, gnatsd] </td>
+<td>GNATS 错误跟踪系统 </td>
+</tr>
+<tr>
+<td>2003/tcp </td>
+<td>cfinger </td>
+<td>GNU Finger 服务 </td>
+</tr>
+<tr>
+<td>2150 </td>
+<td>ninstall </td>
+<td>网络安装服务 </td>
+</tr>
+<tr>
+<td>2988 </td>
+<td>afbackup </td>
+<td>afbackup 客户-服务器备份系统 </td>
+</tr>
+<tr>
+<td>3128/tcp </td>
+<td>squid </td>
+<td>Squid 万维网代理缓存 </td>
+</tr>
+<tr>
+<td>3455 </td>
+<td>prsvp </td>
+<td>RSVP 端口 </td>
+</tr>
+<tr>
+<td>5432 </td>
+<td>postgres </td>
+<td>PostgreSQL 数据库 </td>
+</tr>
+<tr>
+<td>4557/tcp </td>
+<td>fax </td>
+<td>FAX 传输服务（旧服务） </td>
+</tr>
+<tr>
+<td>4559/tcp </td>
+<td>hylafax </td>
+<td>HylaFAX 客户-服务器协议（新服务） </td>
+</tr>
+<tr>
+<td>5232 </td>
+<td>sgi-dgl </td>
+<td>SGI 分布式图形库 </td>
+</tr>
+<tr>
+<td>5354 </td>
+<td>noclog </td>
+<td>NOCOL 网络操作中心记录守护进程（noclogd） </td>
+</tr>
+<tr>
+<td>5355 </td>
+<td>hostmon </td>
+<td>NOCOL 网络操作中心主机监视 </td>
+</tr>
+<tr>
+<td>5680/tcp </td>
+<td>canna </td>
+<td>Canna 日文字符输入界面 </td>
+</tr>
+<tr>
+<td>6010/tcp </td>
+<td>x11-ssh-offset </td>
+<td>安全 Shell（SSH）X11 转发偏移 </td>
+</tr>
+<tr>
+<td>6667 </td>
+<td>ircd </td>
+<td>互联网中继聊天守护进程（ircd） </td>
+</tr>
+<tr>
+<td>7100/tcp </td>
+<td>xfs </td>
+<td>X 字体服务器（XFS） </td>
+</tr>
+<tr>
+<td>7666/tcp </td>
+<td>tircproxy </td>
+<td>Tircproxy IRC 代理服务 </td>
+</tr>
+<tr>
+<td>8008 </td>
+<td>http-alt </td>
+<td>超文本传输协议（HTTP）的另一选择 </td>
+</tr>
+<tr>
+<td>8080 </td>
+<td>webcache </td>
+<td>万维网（WWW）缓存服务 </td>
+</tr>
+<tr>
+<td>8081 </td>
+<td>tproxy </td>
+<td>透明代理 </td>
+</tr>
+<tr>
+<td>9100/tcp </td>
+<td>jetdirect [laserjet, hplj] </td>
+<td>Hewlett-Packard (HP) JetDirect 网络打印服务 </td>
+</tr>
+<tr>
+<td>9359 </td>
+<td>mandelspawn [mandelbrot] </td>
+<td>用于 X 窗口系统的并行 Mandelbrot 生成程序 </td>
+</tr>
+<tr>
+<td>10081 </td>
+<td>kamanda </td>
+<td>使用 Kerberos 的 Amanda 备份服务 </td>
+</tr>
+<tr>
+<td>10082/tcp </td>
+<td>amandaidx </td>
+<td>Amanda 备份服务 </td>
+</tr>
+<tr>
+<td>10083/tcp </td>
+<td>amidxtape </td>
+<td>Amanda 备份服务 </td>
+</tr>
+<tr>
+<td>20011 </td>
+<td>isdnlog </td>
+<td>综合业务数字网（ISDN）登录系统 </td>
+</tr>
+<tr>
+<td>20012 </td>
+<td>vboxd </td>
+<td>ISDN 音箱守护进程（vboxd） </td>
+</tr>
+<tr>
+<td>22305/tcp </td>
+<td>wnn4_Kr </td>
+<td>kWnn 韩文输入系统 </td>
+</tr>
+<tr>
+<td>22289/tcp </td>
+<td>wnn4_Cn </td>
+<td>cWnn 中文输入系统 </td>
+</tr>
+<tr>
+<td>22321/tcp </td>
+<td>wnn4_Tw </td>
+<td>tWnn 中文输入系统（台湾） </td>
+</tr>
+<tr>
+<td>24554 </td>
+<td>binkp </td>
+<td>Binkley TCP/IP Fidonet 邮寄程序守护进程 </td>
+</tr>
+<tr>
+<td>27374 </td>
+<td>asp </td>
+<td>地址搜索协议 </td>
+</tr>
+<tr>
+<td>60177 </td>
+<td>tfido </td>
+<td>Ifmail FidoNet 兼容邮寄服务 </td>
+</tr>
+<tr>
+<td>60179 </td>
+<td>fido </td>
+<td>FidoNet 电子邮件和新闻网络 </td>
+</tr>
+</table>
+
 
 
