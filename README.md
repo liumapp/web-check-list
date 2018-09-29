@@ -1185,7 +1185,7 @@ web应用开发中常用的参数对照表
 <th>16色</th>
 </tr>
 <tr>
-<td bgcolor="rgb(255, 250, 250)"></td>
+<td bgcolor=rgb(255, 250, 250)>d </td>
 <td>Snow</td>
 <td>255 250 250</td>
 <td>#FFFAFA</td>
