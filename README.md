@@ -3,176 +3,1137 @@ web应用开发中常用的参数对照表
 
 ## Http Content-type
 
-文件扩展名	Content-Type(Mime-Type)	文件扩展名	Content-Type(Mime-Type)
-.*（ 二进制流，不知道下载文件类型）	application/octet-stream	.tif	image/tiff
-.001	application/x-001	.301	application/x-301
-.323	text/h323	.906	application/x-906
-.907	drawing/907	.a11	application/x-a11
-.acp	audio/x-mei-aac	.ai	application/postscript
-.aif	audio/aiff	.aifc	audio/aiff
-.aiff	audio/aiff	.anv	application/x-anv
-.asa	text/asa	.asf	video/x-ms-asf
-.asp	text/asp	.asx	video/x-ms-asf
-.au	audio/basic	.avi	video/avi
-.awf	application/vnd.adobe.workflow	.biz	text/xml
-.bmp	application/x-bmp	.bot	application/x-bot
-.c4t	application/x-c4t	.c90	application/x-c90
-.cal	application/x-cals	.cat	application/vnd.ms-pki.seccat
-.cdf	application/x-netcdf	.cdr	application/x-cdr
-.cel	application/x-cel	.cer	application/x-x509-ca-cert
-.cg4	application/x-g4	.cgm	application/x-cgm
-.cit	application/x-cit	.class	java/*
-.cml	text/xml	.cmp	application/x-cmp
-.cmx	application/x-cmx	.cot	application/x-cot
-.crl	application/pkix-crl	.crt	application/x-x509-ca-cert
-.csi	application/x-csi	.css	text/css
-.cut	application/x-cut	.dbf	application/x-dbf
-.dbm	application/x-dbm	.dbx	application/x-dbx
-.dcd	text/xml	.dcx	application/x-dcx
-.der	application/x-x509-ca-cert	.dgn	application/x-dgn
-.dib	application/x-dib	.dll	application/x-msdownload
-.doc	application/msword	.dot	application/msword
-.drw	application/x-drw	.dtd	text/xml
-.dwf	Model/vnd.dwf	.dwf	application/x-dwf
-.dwg	application/x-dwg	.dxb	application/x-dxb
-.dxf	application/x-dxf	.edn	application/vnd.adobe.edn
-.emf	application/x-emf	.eml	message/rfc822
-.ent	text/xml	.epi	application/x-epi
-.eps	application/x-ps	.eps	application/postscript
-.etd	application/x-ebx	.exe	application/x-msdownload
-.fax	image/fax	.fdf	application/vnd.fdf
-.fif	application/fractals	.fo	text/xml
-.frm	application/x-frm	.g4	application/x-g4
-.gbr	application/x-gbr	.	application/x-
-.gif	image/gif	.gl2	application/x-gl2
-.gp4	application/x-gp4	.hgl	application/x-hgl
-.hmr	application/x-hmr	.hpg	application/x-hpgl
-.hpl	application/x-hpl	.hqx	application/mac-binhex40
-.hrf	application/x-hrf	.hta	application/hta
-.htc	text/x-component	.htm	text/html
-.html	text/html	.htt	text/webviewhtml
-.htx	text/html	.icb	application/x-icb
-.ico	image/x-icon	.ico	application/x-ico
-.iff	application/x-iff	.ig4	application/x-g4
-.igs	application/x-igs	.iii	application/x-iphone
-.img	application/x-img	.ins	application/x-internet-signup
-.isp	application/x-internet-signup	.IVF	video/x-ivf
-.java	java/*	.jfif	image/jpeg
-.jpe	image/jpeg	.jpe	application/x-jpe
-.jpeg	image/jpeg	.jpg	image/jpeg
-.jpg	application/x-jpg	.js	application/x-javascript
-.jsp	text/html	.la1	audio/x-liquid-file
-.lar	application/x-laplayer-reg	.latex	application/x-latex
-.lavs	audio/x-liquid-secure	.lbm	application/x-lbm
-.lmsff	audio/x-la-lms	.ls	application/x-javascript
-.ltr	application/x-ltr	.m1v	video/x-mpeg
-.m2v	video/x-mpeg	.m3u	audio/mpegurl
-.m4e	video/mpeg4	.mac	application/x-mac
-.man	application/x-troff-man	.math	text/xml
-.mdb	application/msaccess	.mdb	application/x-mdb
-.mfp	application/x-shockwave-flash	.mht	message/rfc822
-.mhtml	message/rfc822	.mi	application/x-mi
-.mid	audio/mid	.midi	audio/mid
-.mil	application/x-mil	.mml	text/xml
-.mnd	audio/x-musicnet-download	.mns	audio/x-musicnet-stream
-.mocha	application/x-javascript	.movie	video/x-sgi-movie
-.mp1	audio/mp1	.mp2	audio/mp2
-.mp2v	video/mpeg	.mp3	audio/mp3
-.mp4	video/mpeg4	.mpa	video/x-mpg
-.mpd	application/vnd.ms-project	.mpe	video/x-mpeg
-.mpeg	video/mpg	.mpg	video/mpg
-.mpga	audio/rn-mpeg	.mpp	application/vnd.ms-project
-.mps	video/x-mpeg	.mpt	application/vnd.ms-project
-.mpv	video/mpg	.mpv2	video/mpeg
-.mpw	application/vnd.ms-project	.mpx	application/vnd.ms-project
-.mtx	text/xml	.mxp	application/x-mmxp
-.net	image/pnetvue	.nrf	application/x-nrf
-.nws	message/rfc822	.odc	text/x-ms-odc
-.out	application/x-out	.p10	application/pkcs10
-.p12	application/x-pkcs12	.p7b	application/x-pkcs7-certificates
-.p7c	application/pkcs7-mime	.p7m	application/pkcs7-mime
-.p7r	application/x-pkcs7-certreqresp	.p7s	application/pkcs7-signature
-.pc5	application/x-pc5	.pci	application/x-pci
-.pcl	application/x-pcl	.pcx	application/x-pcx
-.pdf	application/pdf	.pdf	application/pdf
-.pdx	application/vnd.adobe.pdx	.pfx	application/x-pkcs12
-.pgl	application/x-pgl	.pic	application/x-pic
-.pko	application/vnd.ms-pki.pko	.pl	application/x-perl
-.plg	text/html	.pls	audio/scpls
-.plt	application/x-plt	.png	image/png
-.png	application/x-png	.pot	application/vnd.ms-powerpoint
-.ppa	application/vnd.ms-powerpoint	.ppm	application/x-ppm
-.pps	application/vnd.ms-powerpoint	.ppt	application/vnd.ms-powerpoint
-.ppt	application/x-ppt	.pr	application/x-pr
-.prf	application/pics-rules	.prn	application/x-prn
-.prt	application/x-prt	.ps	application/x-ps
-.ps	application/postscript	.ptn	application/x-ptn
-.pwz	application/vnd.ms-powerpoint	.r3t	text/vnd.rn-realtext3d
-.ra	audio/vnd.rn-realaudio	.ram	audio/x-pn-realaudio
-.ras	application/x-ras	.rat	application/rat-file
-.rdf	text/xml	.rec	application/vnd.rn-recording
-.red	application/x-red	.rgb	application/x-rgb
-.rjs	application/vnd.rn-realsystem-rjs	.rjt	application/vnd.rn-realsystem-rjt
-.rlc	application/x-rlc	.rle	application/x-rle
-.rm	application/vnd.rn-realmedia	.rmf	application/vnd.adobe.rmf
-.rmi	audio/mid	.rmj	application/vnd.rn-realsystem-rmj
-.rmm	audio/x-pn-realaudio	.rmp	application/vnd.rn-rn_music_package
-.rms	application/vnd.rn-realmedia-secure	.rmvb	application/vnd.rn-realmedia-vbr
-.rmx	application/vnd.rn-realsystem-rmx	.rnx	application/vnd.rn-realplayer
-.rp	image/vnd.rn-realpix	.rpm	audio/x-pn-realaudio-plugin
-.rsml	application/vnd.rn-rsml	.rt	text/vnd.rn-realtext
-.rtf	application/msword	.rtf	application/x-rtf
-.rv	video/vnd.rn-realvideo	.sam	application/x-sam
-.sat	application/x-sat	.sdp	application/sdp
-.sdw	application/x-sdw	.sit	application/x-stuffit
-.slb	application/x-slb	.sld	application/x-sld
-.slk	drawing/x-slk	.smi	application/smil
-.smil	application/smil	.smk	application/x-smk
-.snd	audio/basic	.sol	text/plain
-.sor	text/plain	.spc	application/x-pkcs7-certificates
-.spl	application/futuresplash	.spp	text/xml
-.ssm	application/streamingmedia	.sst	application/vnd.ms-pki.certstore
-.stl	application/vnd.ms-pki.stl	.stm	text/html
-.sty	application/x-sty	.svg	text/xml
-.swf	application/x-shockwave-flash	.tdf	application/x-tdf
-.tg4	application/x-tg4	.tga	application/x-tga
-.tif	image/tiff	.tif	application/x-tif
-.tiff	image/tiff	.tld	text/xml
-.top	drawing/x-top	.torrent	application/x-bittorrent
-.tsd	text/xml	.txt	text/plain
-.uin	application/x-icq	.uls	text/iuls
-.vcf	text/x-vcard	.vda	application/x-vda
-.vdx	application/vnd.visio	.vml	text/xml
-.vpg	application/x-vpeg005	.vsd	application/vnd.visio
-.vsd	application/x-vsd	.vss	application/vnd.visio
-.vst	application/vnd.visio	.vst	application/x-vst
-.vsw	application/vnd.visio	.vsx	application/vnd.visio
-.vtx	application/vnd.visio	.vxml	text/xml
-.wav	audio/wav	.wax	audio/x-ms-wax
-.wb1	application/x-wb1	.wb2	application/x-wb2
-.wb3	application/x-wb3	.wbmp	image/vnd.wap.wbmp
-.wiz	application/msword	.wk3	application/x-wk3
-.wk4	application/x-wk4	.wkq	application/x-wkq
-.wks	application/x-wks	.wm	video/x-ms-wm
-.wma	audio/x-ms-wma	.wmd	application/x-ms-wmd
-.wmf	application/x-wmf	.wml	text/vnd.wap.wml
-.wmv	video/x-ms-wmv	.wmx	video/x-ms-wmx
-.wmz	application/x-ms-wmz	.wp6	application/x-wp6
-.wpd	application/x-wpd	.wpg	application/x-wpg
-.wpl	application/vnd.ms-wpl	.wq1	application/x-wq1
-.wr1	application/x-wr1	.wri	application/x-wri
-.wrk	application/x-wrk	.ws	application/x-ws
-.ws2	application/x-ws	.wsc	text/scriptlet
-.wsdl	text/xml	.wvx	video/x-ms-wvx
-.xdp	application/vnd.adobe.xdp	.xdr	text/xml
-.xfd	application/vnd.adobe.xfd	.xfdf	application/vnd.adobe.xfdf
-.xhtml	text/html	.xls	application/vnd.ms-excel
-.xls	application/x-xls	.xlw	application/x-xlw
-.xml	text/xml	.xpl	audio/scpls
-.xq	text/xml	.xql	text/xml
-.xquery	text/xml	.xsd	text/xml
-.xsl	text/xml	.xslt	text/xml
-.xwd	application/x-xwd	.x_b	application/x-x_b
-.sis	application/vnd.symbian.install	.sisx	application/vnd.symbian.install
-.x_t	application/x-x_t	.ipa	application/vnd.iphone
-.apk	application/vnd.android.package-archive	.xap	application/x-silverlight-app
+<table> 
+	<tbody><tr>
+       <th>文件扩展名</th>
+       <th>Content-Type(Mime-Type)</th>
+       <th>文件扩展名</th>
+       <th>Content-Type(Mime-Type)</th>
+     </tr>
+     </tbody><tbody>
+		<tr>
+    		<td>.*（ 二进制流，不知道下载文件类型）</td>
+    		<td>application/octet-stream</td>
+			<td>.tif</td>
+			<td>image/tiff</td> 
+    	</tr>
+      <tr>
+       <td>.001</td>
+       <td>application/x-001</td> 
+       <td>.301</td>
+       <td>application/x-301</td>
+      </tr> 
+      <tr>
+       <td>.323</td>
+       <td>text/h323</td> 
+ 
+       <td>.906</td>
+       <td>application/x-906</td>
+      </tr> 
+      <tr>
+       <td>.907</td>
+       <td>drawing/907</td> 
+   
+       <td>.a11</td>
+       <td>application/x-a11</td>
+      </tr> 
+      <tr>
+       <td>.acp</td>
+       <td>audio/x-mei-aac</td> 
+     
+       <td>.ai</td>
+       <td>application/postscript</td>
+      </tr> 
+      <tr>
+       <td>.aif</td>
+       <td>audio/aiff</td> 
+      
+       <td>.aifc</td>
+       <td>audio/aiff</td>
+      </tr> 
+      <tr>
+       <td>.aiff</td>
+       <td>audio/aiff</td> 
+     
+       <td>.anv</td>
+       <td>application/x-anv</td>
+      </tr> 
+      <tr>
+       <td>.asa</td>
+       <td>text/asa</td> 
+    
+       <td>.asf</td>
+       <td>video/x-ms-asf</td>
+      </tr> 
+      <tr>
+       <td>.asp</td>
+       <td>text/asp</td> 
+    
+       <td>.asx</td>
+       <td>video/x-ms-asf</td>
+      </tr> 
+      <tr>
+       <td>.au</td>
+       <td>audio/basic</td> 
+     
+       <td>.avi</td>
+       <td>video/avi</td>
+      </tr> 
+      <tr>
+       <td>.awf</td>
+       <td>application/vnd.adobe.workflow</td> 
+   
+       <td>.biz</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.bmp</td>
+       <td>application/x-bmp</td> 
+      
+       <td>.bot</td>
+       <td>application/x-bot</td>
+      </tr> 
+      <tr>
+       <td>.c4t</td>
+       <td>application/x-c4t</td> 
+      
+       <td>.c90</td>
+       <td>application/x-c90</td>
+      </tr> 
+      <tr>
+       <td>.cal</td>
+       <td>application/x-cals</td> 
+      
+       <td>.cat</td>
+       <td>application/vnd.ms-pki.seccat</td>
+      </tr> 
+      <tr>
+       <td>.cdf</td>
+       <td>application/x-netcdf</td> 
+     
+       <td>.cdr</td>
+       <td>application/x-cdr</td>
+      </tr> 
+      <tr>
+       <td>.cel</td>
+       <td>application/x-cel</td> 
+      
+       <td>.cer</td>
+       <td>application/x-x509-ca-cert</td>
+      </tr> 
+      <tr>
+       <td>.cg4</td>
+       <td>application/x-g4</td> 
+      
+       <td>.cgm</td>
+       <td>application/x-cgm</td>
+      </tr> 
+      <tr>
+       <td>.cit</td>
+       <td>application/x-cit</td> 
+     
+       <td>.class</td>
+       <td>java/*</td>
+      </tr> 
+      <tr>
+       <td>.cml</td>
+       <td>text/xml</td> 
+      
+       <td>.cmp</td>
+       <td>application/x-cmp</td>
+      </tr> 
+      <tr>
+       <td>.cmx</td>
+       <td>application/x-cmx</td> 
+    
+       <td>.cot</td>
+       <td>application/x-cot</td>
+      </tr> 
+      <tr>
+       <td>.crl</td>
+       <td>application/pkix-crl</td> 
+     
+       <td>.crt</td>
+       <td>application/x-x509-ca-cert</td>
+      </tr> 
+      <tr>
+       <td>.csi</td>
+       <td>application/x-csi</td> 
+      
+       <td>.css</td>
+       <td>text/css</td>
+      </tr> 
+      <tr>
+       <td>.cut</td>
+       <td>application/x-cut</td> 
+      
+       <td>.dbf</td>
+       <td>application/x-dbf</td>
+      </tr> 
+      <tr>
+       <td>.dbm</td>
+       <td>application/x-dbm</td> 
+      
+       <td>.dbx</td>
+       <td>application/x-dbx</td>
+      </tr> 
+      <tr>
+       <td>.dcd</td>
+       <td>text/xml</td> 
+      
+       <td>.dcx</td>
+       <td>application/x-dcx</td>
+      </tr> 
+      <tr>
+       <td>.der</td>
+       <td>application/x-x509-ca-cert</td> 
+      
+       <td>.dgn</td>
+       <td>application/x-dgn</td>
+      </tr> 
+      <tr>
+       <td>.dib</td>
+       <td>application/x-dib</td> 
+   
+       <td>.dll</td>
+       <td>application/x-msdownload</td>
+      </tr> 
+      <tr>
+       <td>.doc</td>
+       <td>application/msword</td> 
+     
+       <td>.dot</td>
+       <td>application/msword</td>
+      </tr> 
+      <tr>
+       <td>.drw</td>
+       <td>application/x-drw</td> 
+     
+       <td>.dtd</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.dwf</td>
+       <td>Model/vnd.dwf</td> 
+     
+       <td>.dwf</td>
+       <td>application/x-dwf</td>
+      </tr> 
+      <tr>
+       <td>.dwg</td>
+       <td>application/x-dwg</td> 
+      
+       <td>.dxb</td>
+       <td>application/x-dxb</td>
+      </tr> 
+      <tr>
+       <td>.dxf</td>
+       <td>application/x-dxf</td> 
+      
+       <td>.edn</td>
+       <td>application/vnd.adobe.edn</td>
+      </tr> 
+      <tr>
+       <td>.emf</td>
+       <td>application/x-emf</td> 
+     
+       <td>.eml</td>
+       <td>message/rfc822</td>
+      </tr> 
+      <tr>
+       <td>.ent</td>
+       <td>text/xml</td> 
+      
+       <td>.epi</td>
+       <td>application/x-epi</td>
+      </tr> 
+      <tr>
+       <td>.eps</td>
+       <td>application/x-ps</td> 
+     
+       <td>.eps</td>
+       <td>application/postscript</td>
+      </tr> 
+      <tr>
+       <td>.etd</td>
+       <td>application/x-ebx</td> 
+     
+       <td>.exe</td>
+       <td>application/x-msdownload</td>
+      </tr> 
+      <tr>
+       <td>.fax</td>
+       <td>image/fax</td> 
+      
+       <td>.fdf</td>
+       <td>application/vnd.fdf</td>
+      </tr> 
+      <tr>
+       <td>.fif</td>
+       <td>application/fractals</td> 
+      
+       <td>.fo</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.frm</td>
+       <td>application/x-frm</td> 
+      
+       <td>.g4</td>
+       <td>application/x-g4</td>
+      </tr> 
+      <tr>
+       <td>.gbr</td>
+       <td>application/x-gbr</td> 
+     
+       <td>.</td>
+       <td>application/x-</td>
+      </tr> 
+      <tr>
+       <td>.gif</td>
+       <td>image/gif</td> 
+      
+       <td>.gl2</td>
+       <td>application/x-gl2</td>
+      </tr> 
+      <tr>
+       <td>.gp4</td>
+       <td>application/x-gp4</td> 
+      
+       <td>.hgl</td>
+       <td>application/x-hgl</td>
+      </tr> 
+      <tr>
+       <td>.hmr</td>
+       <td>application/x-hmr</td> 
+     
+       <td>.hpg</td>
+       <td>application/x-hpgl</td>
+      </tr> 
+      <tr>
+       <td>.hpl</td>
+       <td>application/x-hpl</td> 
+     
+       <td>.hqx</td>
+       <td>application/mac-binhex40</td>
+      </tr> 
+      <tr>
+       <td>.hrf</td>
+       <td>application/x-hrf</td> 
+      
+       <td>.hta</td>
+       <td>application/hta</td>
+      </tr> 
+      <tr>
+       <td>.htc</td>
+       <td>text/x-component</td> 
+      
+       <td>.htm</td>
+       <td>text/html</td>
+      </tr> 
+      <tr>
+       <td>.html</td>
+       <td>text/html</td> 
+      
+       <td>.htt</td>
+       <td>text/webviewhtml</td>
+      </tr> 
+      <tr>
+       <td>.htx</td>
+       <td>text/html</td> 
+      
+       <td>.icb</td>
+       <td>application/x-icb</td>
+      </tr> 
+      <tr>
+       <td>.ico</td>
+       <td>image/x-icon</td> 
+     
+       <td>.ico</td>
+       <td>application/x-ico</td>
+      </tr> 
+      <tr>
+       <td>.iff</td>
+       <td>application/x-iff</td> 
+      
+       <td>.ig4</td>
+       <td>application/x-g4</td>
+      </tr> 
+      <tr>
+       <td>.igs</td>
+       <td>application/x-igs</td> 
+      
+       <td>.iii</td>
+       <td>application/x-iphone</td>
+      </tr> 
+      <tr>
+       <td>.img</td>
+       <td>application/x-img</td> 
+      
+       <td>.ins</td>
+       <td>application/x-internet-signup</td>
+      </tr> 
+      <tr>
+       <td>.isp</td>
+       <td>application/x-internet-signup</td> 
+      
+       <td>.IVF</td>
+       <td>video/x-ivf</td>
+      </tr> 
+      <tr>
+       <td>.java</td>
+       <td>java/*</td> 
+      
+       <td>.jfif</td>
+       <td>image/jpeg</td>
+      </tr> 
+      <tr>
+       <td>.jpe</td>
+       <td>image/jpeg</td> 
+      
+       <td>.jpe</td>
+       <td>application/x-jpe</td>
+      </tr> 
+      <tr>
+       <td>.jpeg</td>
+       <td>image/jpeg</td> 
+      
+       <td>.jpg</td>
+       <td>image/jpeg</td>
+      </tr> 
+      <tr>
+       <td>.jpg</td>
+       <td>application/x-jpg</td> 
+      
+       <td>.js</td>
+       <td>application/x-javascript</td>
+      </tr> 
+      <tr>
+       <td>.jsp</td>
+       <td>text/html</td> 
+      
+       <td>.la1</td>
+       <td>audio/x-liquid-file</td>
+      </tr> 
+      <tr>
+       <td>.lar</td>
+       <td>application/x-laplayer-reg</td> 
+     
+       <td>.latex</td>
+       <td>application/x-latex</td>
+      </tr> 
+      <tr>
+       <td>.lavs</td>
+       <td>audio/x-liquid-secure</td> 
+   
+       <td>.lbm</td>
+       <td>application/x-lbm</td>
+      </tr> 
+      <tr>
+       <td>.lmsff</td>
+       <td>audio/x-la-lms</td> 
+      
+       <td>.ls</td>
+       <td>application/x-javascript</td>
+      </tr> 
+      <tr>
+       <td>.ltr</td>
+       <td>application/x-ltr</td> 
+     
+       <td>.m1v</td>
+       <td>video/x-mpeg</td>
+      </tr> 
+      <tr>
+       <td>.m2v</td>
+       <td>video/x-mpeg</td> 
+      
+       <td>.m3u</td>
+       <td>audio/mpegurl</td>
+      </tr> 
+      <tr>
+       <td>.m4e</td>
+       <td>video/mpeg4</td> 
+     
+       <td>.mac</td>
+       <td>application/x-mac</td>
+      </tr> 
+      <tr>
+       <td>.man</td>
+       <td>application/x-troff-man</td> 
+     
+       <td>.math</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.mdb</td>
+       <td>application/msaccess</td> 
+      
+       <td>.mdb</td>
+       <td>application/x-mdb</td>
+      </tr> 
+      <tr>
+       <td>.mfp</td>
+       <td>application/x-shockwave-flash</td> 
+     
+       <td>.mht</td>
+       <td>message/rfc822</td>
+      </tr> 
+      <tr>
+       <td>.mhtml</td>
+       <td>message/rfc822</td> 
+      
+       <td>.mi</td>
+       <td>application/x-mi</td>
+      </tr> 
+      <tr>
+       <td>.mid</td>
+       <td>audio/mid</td> 
+      
+       <td>.midi</td>
+       <td>audio/mid</td>
+      </tr> 
+      <tr>
+       <td>.mil</td>
+       <td>application/x-mil</td> 
+    
+       <td>.mml</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.mnd</td>
+       <td>audio/x-musicnet-download</td> 
+      
+       <td>.mns</td>
+       <td>audio/x-musicnet-stream</td>
+      </tr> 
+      <tr>
+       <td>.mocha</td>
+       <td>application/x-javascript</td> 
+     
+       <td>.movie</td>
+       <td>video/x-sgi-movie</td>
+      </tr> 
+      <tr>
+       <td>.mp1</td>
+       <td>audio/mp1</td> 
+     
+       <td>.mp2</td>
+       <td>audio/mp2</td>
+      </tr> 
+      <tr>
+       <td>.mp2v</td>
+       <td>video/mpeg</td> 
+      
+       <td>.mp3</td>
+       <td>audio/mp3</td>
+      </tr> 
+      <tr>
+       <td>.mp4</td>
+       <td>video/mpeg4</td> 
+     
+       <td>.mpa</td>
+       <td>video/x-mpg</td>
+      </tr> 
+      <tr>
+       <td>.mpd</td>
+       <td>application/vnd.ms-project</td> 
+      
+       <td>.mpe</td>
+       <td>video/x-mpeg</td>
+      </tr> 
+      <tr>
+       <td>.mpeg</td>
+       <td>video/mpg</td> 
+      
+       <td>.mpg</td>
+       <td>video/mpg</td>
+      </tr> 
+      <tr>
+       <td>.mpga</td>
+       <td>audio/rn-mpeg</td> 
+      
+       <td>.mpp</td>
+       <td>application/vnd.ms-project</td>
+      </tr> 
+      <tr>
+       <td>.mps</td>
+       <td>video/x-mpeg</td> 
+      
+       <td>.mpt</td>
+       <td>application/vnd.ms-project</td>
+      </tr> 
+      <tr>
+       <td>.mpv</td>
+       <td>video/mpg</td> 
+     
+       <td>.mpv2</td>
+       <td>video/mpeg</td>
+      </tr> 
+      <tr>
+       <td>.mpw</td>
+       <td>application/vnd.ms-project</td> 
+      
+       <td>.mpx</td>
+       <td>application/vnd.ms-project</td>
+      </tr> 
+      <tr>
+       <td>.mtx</td>
+       <td>text/xml</td> 
+    
+       <td>.mxp</td>
+       <td>application/x-mmxp</td>
+      </tr> 
+      <tr>
+       <td>.net</td>
+       <td>image/pnetvue</td> 
+      
+       <td>.nrf</td>
+       <td>application/x-nrf</td>
+      </tr> 
+      <tr>
+       <td>.nws</td>
+       <td>message/rfc822</td> 
+      
+       <td>.odc</td>
+       <td>text/x-ms-odc</td>
+      </tr> 
+      <tr>
+       <td>.out</td>
+       <td>application/x-out</td> 
+      
+       <td>.p10</td>
+       <td>application/pkcs10</td>
+      </tr> 
+      <tr>
+       <td>.p12</td>
+       <td>application/x-pkcs12</td> 
+     
+       <td>.p7b</td>
+       <td>application/x-pkcs7-certificates</td>
+      </tr> 
+      <tr>
+       <td>.p7c</td>
+       <td>application/pkcs7-mime</td> 
+     
+       <td>.p7m</td>
+       <td>application/pkcs7-mime</td>
+      </tr> 
+      <tr>
+       <td>.p7r</td>
+       <td>application/x-pkcs7-certreqresp</td> 
+     
+       <td>.p7s</td>
+       <td>application/pkcs7-signature</td>
+      </tr> 
+      <tr>
+       <td>.pc5</td>
+       <td>application/x-pc5</td> 
+      
+       <td>.pci</td>
+       <td>application/x-pci</td>
+      </tr> 
+      <tr>
+       <td>.pcl</td>
+       <td>application/x-pcl</td> 
+      
+       <td>.pcx</td>
+       <td>application/x-pcx</td>
+      </tr> 
+      <tr>
+       <td>.pdf</td>
+       <td>application/pdf</td> 
+      
+       <td>.pdf</td>
+       <td>application/pdf</td>
+      </tr> 
+      <tr>
+       <td>.pdx</td>
+       <td>application/vnd.adobe.pdx</td> 
+      
+       <td>.pfx</td>
+       <td>application/x-pkcs12</td>
+      </tr> 
+      <tr>
+       <td>.pgl</td>
+       <td>application/x-pgl</td> 
+     
+       <td>.pic</td>
+       <td>application/x-pic</td>
+      </tr> 
+      <tr>
+       <td>.pko</td>
+       <td>application/vnd.ms-pki.pko</td> 
+     
+       <td>.pl</td>
+       <td>application/x-perl</td>
+      </tr> 
+      <tr>
+       <td>.plg</td>
+       <td>text/html</td> 
+       <td>.pls</td>
+       <td>audio/scpls</td>
+      </tr> 
+      <tr>
+       <td>.plt</td>
+       <td>application/x-plt</td> 
+       <td>.png</td>
+       <td>image/png</td>
+      </tr> 
+      <tr>
+       <td>.png</td>
+       <td>application/x-png</td> 
+       <td>.pot</td>
+       <td>application/vnd.ms-powerpoint</td>
+      </tr> 
+      <tr>
+       <td>.ppa</td>
+       <td>application/vnd.ms-powerpoint</td> 
+       <td>.ppm</td>
+       <td>application/x-ppm</td>
+      </tr> 
+      <tr>
+       <td>.pps</td>
+       <td>application/vnd.ms-powerpoint</td> 
+       <td>.ppt</td>
+       <td>application/vnd.ms-powerpoint</td>
+      </tr> 
+      <tr>
+       <td>.ppt</td>
+       <td>application/x-ppt</td> 
+       <td>.pr</td>
+       <td>application/x-pr</td>
+      </tr> 
+      <tr>
+       <td>.prf</td>
+       <td>application/pics-rules</td> 
+       <td>.prn</td>
+       <td>application/x-prn</td>
+      </tr> 
+      <tr>
+       <td>.prt</td>
+       <td>application/x-prt</td> 
+       <td>.ps</td>
+       <td>application/x-ps</td>
+      </tr> 
+      <tr>
+       <td>.ps</td>
+       <td>application/postscript</td> 
+       <td>.ptn</td>
+       <td>application/x-ptn</td>
+      </tr> 
+      <tr>
+       <td>.pwz</td>
+       <td>application/vnd.ms-powerpoint</td> 
+       <td>.r3t</td>
+       <td>text/vnd.rn-realtext3d</td>
+      </tr> 
+      <tr>
+       <td>.ra</td>
+       <td>audio/vnd.rn-realaudio</td> 
+       <td>.ram</td>
+       <td>audio/x-pn-realaudio</td>
+      </tr> 
+      <tr>
+       <td>.ras</td>
+       <td>application/x-ras</td> 
+       <td>.rat</td>
+       <td>application/rat-file</td>
+      </tr> 
+      <tr>
+       <td>.rdf</td>
+       <td>text/xml</td> 
+       <td>.rec</td>
+       <td>application/vnd.rn-recording</td>
+      </tr> 
+      <tr>
+       <td>.red</td>
+       <td>application/x-red</td> 
+       <td>.rgb</td>
+       <td>application/x-rgb</td>
+      </tr> 
+      <tr>
+       <td>.rjs</td>
+       <td>application/vnd.rn-realsystem-rjs</td> 
+       <td>.rjt</td>
+       <td>application/vnd.rn-realsystem-rjt</td>
+      </tr> 
+      <tr>
+       <td>.rlc</td>
+       <td>application/x-rlc</td> 
+       <td>.rle</td>
+       <td>application/x-rle</td>
+      </tr> 
+      <tr>
+       <td>.rm</td>
+       <td>application/vnd.rn-realmedia</td> 
+       <td>.rmf</td>
+       <td>application/vnd.adobe.rmf</td>
+      </tr> 
+      <tr>
+       <td>.rmi</td>
+       <td>audio/mid</td> 
+       <td>.rmj</td>
+       <td>application/vnd.rn-realsystem-rmj</td>
+      </tr> 
+      <tr>
+       <td>.rmm</td>
+       <td>audio/x-pn-realaudio</td> 
+       <td>.rmp</td>
+       <td>application/vnd.rn-rn_music_package</td>
+      </tr> 
+      <tr>
+       <td>.rms</td>
+       <td>application/vnd.rn-realmedia-secure</td> 
+       <td>.rmvb</td>
+       <td>application/vnd.rn-realmedia-vbr</td>
+      </tr> 
+      <tr>
+       <td>.rmx</td>
+       <td>application/vnd.rn-realsystem-rmx</td> 
+       <td>.rnx</td>
+       <td>application/vnd.rn-realplayer</td>
+      </tr> 
+      <tr>
+       <td>.rp</td>
+       <td>image/vnd.rn-realpix</td> 
+       <td>.rpm</td>
+       <td>audio/x-pn-realaudio-plugin</td>
+      </tr> 
+      <tr>
+       <td>.rsml</td>
+       <td>application/vnd.rn-rsml</td> 
+       <td>.rt</td>
+       <td>text/vnd.rn-realtext</td>
+      </tr> 
+      <tr>
+       <td>.rtf</td>
+       <td>application/msword</td> 
+       <td>.rtf</td>
+       <td>application/x-rtf</td>
+      </tr> 
+      <tr>
+       <td>.rv</td>
+       <td>video/vnd.rn-realvideo</td> 
+       <td>.sam</td>
+       <td>application/x-sam</td>
+      </tr> 
+      <tr>
+       <td>.sat</td>
+       <td>application/x-sat</td> 
+       <td>.sdp</td>
+       <td>application/sdp</td>
+      </tr> 
+      <tr>
+       <td>.sdw</td>
+       <td>application/x-sdw</td> 
+       <td>.sit</td>
+       <td>application/x-stuffit</td>
+      </tr> 
+      <tr>
+       <td>.slb</td>
+       <td>application/x-slb</td> 
+       <td>.sld</td>
+       <td>application/x-sld</td>
+      </tr> 
+      <tr>
+       <td>.slk</td>
+       <td>drawing/x-slk</td> 
+       <td>.smi</td>
+       <td>application/smil</td>
+      </tr> 
+      <tr>
+       <td>.smil</td>
+       <td>application/smil</td> 
+       <td>.smk</td>
+       <td>application/x-smk</td>
+      </tr> 
+      <tr>
+       <td>.snd</td>
+       <td>audio/basic</td> 
+       <td>.sol</td>
+       <td>text/plain</td>
+      </tr> 
+      <tr>
+       <td>.sor</td>
+       <td>text/plain</td> 
+       <td>.spc</td>
+       <td>application/x-pkcs7-certificates</td>
+      </tr> 
+      <tr>
+       <td>.spl</td>
+       <td>application/futuresplash</td> 
+       <td>.spp</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.ssm</td>
+       <td>application/streamingmedia</td> 
+       <td>.sst</td>
+       <td>application/vnd.ms-pki.certstore</td>
+      </tr> 
+      <tr>
+       <td>.stl</td>
+       <td>application/vnd.ms-pki.stl</td> 
+       <td>.stm</td>
+       <td>text/html</td>
+      </tr> 
+      <tr>
+       <td>.sty</td>
+       <td>application/x-sty</td> 
+       <td>.svg</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.swf</td>
+       <td>application/x-shockwave-flash</td> 
+       <td>.tdf</td>
+       <td>application/x-tdf</td>
+      </tr> 
+      <tr>
+       <td>.tg4</td>
+       <td>application/x-tg4</td> 
+       <td>.tga</td>
+       <td>application/x-tga</td>
+      </tr> 
+      <tr>
+       <td>.tif</td>
+       <td>image/tiff</td> 
+       <td>.tif</td>
+       <td>application/x-tif</td>
+      </tr> 
+      <tr>
+       <td>.tiff</td>
+       <td>image/tiff</td> 
+       <td>.tld</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.top</td>
+       <td>drawing/x-top</td> 
+       <td>.torrent</td>
+       <td>application/x-bittorrent</td>
+      </tr> 
+      <tr>
+       <td>.tsd</td>
+       <td>text/xml</td> 
+       <td>.txt</td>
+       <td>text/plain</td>
+      </tr> 
+      <tr>
+       <td>.uin</td>
+       <td>application/x-icq</td> 
+       <td>.uls</td>
+       <td>text/iuls</td>
+      </tr> 
+      <tr>
+       <td>.vcf</td>
+       <td>text/x-vcard</td> 
+       <td>.vda</td>
+       <td>application/x-vda</td>
+      </tr> 
+      <tr>
+       <td>.vdx</td>
+       <td>application/vnd.visio</td> 
+       <td>.vml</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.vpg</td>
+       <td>application/x-vpeg005</td> 
+       <td>.vsd</td>
+       <td>application/vnd.visio</td>
+      </tr> 
+      <tr>
+       <td>.vsd</td>
+       <td>application/x-vsd</td> 
+       <td>.vss</td>
+       <td>application/vnd.visio</td>
+      </tr> 
+      <tr>
+       <td>.vst</td>
+       <td>application/vnd.visio</td> 
+       <td>.vst</td>
+       <td>application/x-vst</td>
+      </tr> 
+      <tr>
+       <td>.vsw</td>
+       <td>application/vnd.visio</td> 
+       <td>.vsx</td>
+       <td>application/vnd.visio</td>
+      </tr> 
+      <tr>
+       <td>.vtx</td>
+       <td>application/vnd.visio</td> 
+       <td>.vxml</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.wav</td>
+       <td>audio/wav</td> 
+       <td>.wax</td>
+       <td>audio/x-ms-wax</td>
+      </tr> 
+      <tr>
+       <td>.wb1</td>
+       <td>application/x-wb1</td> 
+       <td>.wb2</td>
+       <td>application/x-wb2</td>
+      </tr> 
+      <tr>
+       <td>.wb3</td>
+       <td>application/x-wb3</td> 
+       <td>.wbmp</td>
+       <td>image/vnd.wap.wbmp</td>
+      </tr> 
+      <tr>
+       <td>.wiz</td>
+       <td>application/msword</td> 
+       <td>.wk3</td>
+       <td>application/x-wk3</td>
+      </tr> 
+      <tr>
+       <td>.wk4</td>
+       <td>application/x-wk4</td> 
+       <td>.wkq</td>
+       <td>application/x-wkq</td>
+      </tr> 
+      <tr>
+       <td>.wks</td>
+       <td>application/x-wks</td> 
+       <td>.wm</td>
+       <td>video/x-ms-wm</td>
+      </tr> 
+      <tr>
+       <td>.wma</td>
+       <td>audio/x-ms-wma</td> 
+       <td>.wmd</td>
+       <td>application/x-ms-wmd</td>
+      </tr> 
+      <tr>
+       <td>.wmf</td>
+       <td>application/x-wmf</td> 
+       <td>.wml</td>
+       <td>text/vnd.wap.wml</td>
+      </tr> 
+      <tr>
+       <td>.wmv</td>
+       <td>video/x-ms-wmv</td> 
+       <td>.wmx</td>
+       <td>video/x-ms-wmx</td>
+      </tr> 
+      <tr>
+       <td>.wmz</td>
+       <td>application/x-ms-wmz</td> 
+       <td>.wp6</td>
+       <td>application/x-wp6</td>
+      </tr> 
+      <tr>
+       <td>.wpd</td>
+       <td>application/x-wpd</td> 
+       <td>.wpg</td>
+       <td>application/x-wpg</td>
+      </tr> 
+      <tr>
+       <td>.wpl</td>
+       <td>application/vnd.ms-wpl</td> 
+       <td>.wq1</td>
+       <td>application/x-wq1</td>
+      </tr> 
+      <tr>
+       <td>.wr1</td>
+       <td>application/x-wr1</td> 
+       <td>.wri</td>
+       <td>application/x-wri</td>
+      </tr> 
+      <tr>
+       <td>.wrk</td>
+       <td>application/x-wrk</td> 
+       <td>.ws</td>
+       <td>application/x-ws</td>
+      </tr> 
+      <tr>
+       <td>.ws2</td>
+       <td>application/x-ws</td> 
+       <td>.wsc</td>
+       <td>text/scriptlet</td>
+      </tr> 
+      <tr>
+       <td>.wsdl</td>
+       <td>text/xml</td> 
+       <td>.wvx</td>
+       <td>video/x-ms-wvx</td>
+      </tr> 
+      <tr>
+       <td>.xdp</td>
+       <td>application/vnd.adobe.xdp</td> 
+       <td>.xdr</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.xfd</td>
+       <td>application/vnd.adobe.xfd</td> 
+       <td>.xfdf</td>
+       <td>application/vnd.adobe.xfdf</td>
+      </tr> 
+      <tr>
+       <td>.xhtml</td>
+       <td>text/html</td> 
+       <td>.xls</td>
+       <td>application/vnd.ms-excel</td>
+      </tr> 
+      <tr>
+       <td>.xls</td>
+       <td>application/x-xls</td> 
+       <td>.xlw</td>
+       <td>application/x-xlw</td>
+      </tr> 
+      <tr>
+       <td>.xml</td>
+       <td>text/xml</td> 
+       <td>.xpl</td>
+       <td>audio/scpls</td>
+      </tr> 
+      <tr>
+       <td>.xq</td>
+       <td>text/xml</td> 
+       <td>.xql</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.xquery</td>
+       <td>text/xml</td> 
+       <td>.xsd</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.xsl</td>
+       <td>text/xml</td> 
+       <td>.xslt</td>
+       <td>text/xml</td>
+      </tr> 
+      <tr>
+       <td>.xwd</td>
+       <td>application/x-xwd</td> 
+       <td>.x_b</td>
+       <td>application/x-x_b</td>
+      </tr>
+	  <tr>
+       <td>.sis</td>
+       <td>application/vnd.symbian.install</td>
+	   <td>.sisx</td>
+       <td>application/vnd.symbian.install</td>
+      </tr>
+      <tr>
+       <td>.x_t</td>
+       <td>application/x-x_t</td>
+	   <td>.ipa</td>
+       <td>application/vnd.iphone</td>
+      </tr> 
+	  <tr>
+       <td>.apk</td>
+       <td>application/vnd.android.package-archive</td>
+	   <td>.xap</td>
+       <td>application/x-silverlight-app</td>
+      </tr>
+     </tbody>
+    </table>
