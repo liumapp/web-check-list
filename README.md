@@ -3,6 +3,13 @@ web应用开发中常用的参数对照表
 
 * [Http Content-type](#http-content-type)
 * [Html转意字符](#html转意字符)
+* [Ascii对照表](#ascii对照表)
+	* [Ascii特殊字符解释](#ascii特殊字符解释)
+* [Http状态码](#http状态码)
+* [Linux/Unix系统端口](#linux/unix系统端口)
+	* [Unix特有的端口](#unix特有的端口)
+	* [IANA注册的端口](#iana注册的端口)
+	* [数据报传递协议端口](#数据报传递协议端口)
 
 ## Http Content-type
 
