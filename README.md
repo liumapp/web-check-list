@@ -10,6 +10,7 @@ web应用开发中常用的参数对照表
 	* [Unix特有的端口](#unix特有的端口)
 	* [IANA注册的端口](#iana注册的端口)
 	* [数据报传递协议端口](#数据报传递协议端口)
+	* [Kerberos端口](#kerberos端口)
 
 ## Http Content-type
 
@@ -2962,5 +2963,57 @@ IANA(The Internet Assigned Numbers Authority，互联网数字分配机构)是�
 <td>区块信息协议 </td>
 </tr>
 </table>
+
+### Kerberos端口
+
+和 Kerberos 网络验证协议相关的端口列表
+
+在标记的地方，v5 代表 Kerberos 版本5协议
+
+注意，这些端口没有在 IANA 注册
+
+<table>
+<tr>
+<th>端口号码 / 层</th>
+<th>名称</th>
+<th>注释</th>
+</tr>
+<tr>
+<td>751 </td>
+<td>kerberos_master </td>
+<td>Kerberos 验证 </td>
+</tr>
+<tr>
+<td>752 </td>
+<td>passwd_server </td>
+<td>Kerberos 口令（kpasswd）服务器 </td>
+</tr>
+<tr>
+<td>754 </td>
+<td>krb5_prop </td>
+<td>Kerberos v5 从属传播 </td>
+</tr>
+<tr>
+<td>760 </td>
+<td>krbupdate [kreg] </td>
+<td>Kerberos 注册 </td>
+</tr>
+<tr>
+<td>1109 </td>
+<td>kpop </td>
+<td>Kerberos 邮局协议（KPOP） </td>
+</tr>
+<tr>
+<td>2053 </td>
+<td>knetd </td>
+<td>Kerberos 多路分用器 </td>
+</tr>
+<tr>
+<td>2105 </td>
+<td>eklogin </td>
+<td>Kerberos v5 加密的远程登录（rlogin） </td>
+</tr>
+</table>
+
 
 
