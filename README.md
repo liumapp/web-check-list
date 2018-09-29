@@ -2921,3 +2921,36 @@ IANA(The Internet Assigned Numbers Authority，互联网数字分配机构)是�
 </tr>
 </table>
 
+### 数据报传递协议端口
+
+显示了一个和数据报传递协议（DDP）有关的端口列表。DDP 在 AppleTalk 网络上被使用
+
+<table>
+<tr>
+<th>端口号码 / 层</th>
+<th>名称</th>
+<th>注释</th>
+</tr>
+<tr>
+<td>1/ddp </td>
+<td>rtmp </td>
+<td>路由表管理协议 </td>
+</tr>
+<tr>
+<td>2/ddp </td>
+<td>nbp </td>
+<td>名称绑定协议 </td>
+</tr>
+<tr>
+<td>4/ddp </td>
+<td>echo </td>
+<td>AppleTalk Echo 协议 </td>
+</tr>
+<tr>
+<td>6/ddp </td>
+<td>zip </td>
+<td>区块信息协议 </td>
+</tr>
+</table>
+
+
