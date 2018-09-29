@@ -1506,3 +1506,57 @@ web应用开发中常用的参数对照表
 </tr>
 </table>
 
+### Ascii特殊字符解释
+
+<table>
+<tr>
+<th>NUL空</th>
+<th>VT 垂直制表</th>
+<th>SYN 空转同步</th>
+</tr>
+<tr>
+<td>STX  正文开始</td>
+<td>CR   回车</td>
+<td>CAN  作废</td>
+</tr>
+<tr>
+<td>ETX  正文结束</td>
+<td>SO   移位输出</td>
+<td>EM   纸尽</td>
+</tr>
+<tr>
+<td>EOY  传输结束</td>
+<td>SI    移位输入</td>
+<td>SUB  换置</td>
+</tr>
+<tr>
+<td>ENQ  询问字符</td>
+<td>DLE  空格</td>
+<td>ESC  换码</td>
+</tr>
+<tr>
+<td>ACK  承认</td>
+<td>DC1  设备控制1</td>
+<td>FS   文字分隔符</td>
+</tr>
+<tr>
+<td>BEL  报警</td>
+<td>DC2  设备控制2</td>
+<td>GS   组分隔符</td>
+</tr>
+<tr>
+<td>BS   退一格</td>
+<td>DC3  设备控制3</td>
+<td>RS   记录分隔符</td>
+</tr>
+<tr>
+<td>HT   横向列表</td>
+<td>DC4  设备控制4</td>
+<td>US   单元分隔符</td>
+</tr>
+<tr>
+<td>LF   换行</td>
+<td>NAK  否定</td>
+<td>DEL  删除</td>
+</tr>
+</table>
