@@ -1802,3 +1802,710 @@ web应用开发中常用的参数对照表
 <td>获取资源所需要的策略并没有没满足。（RFC 2774）</td>
 </tr>
 </table>
+
+## Linux/Unix系统端口
+
+<table>
+<tr>
+<th>端口号码 / 层</th>
+<th>名称</th>
+<th>注释</th>
+</tr>
+<tr>
+<td>1 </td>
+<td>tcpmux </td>
+<td>TCP 端口服务多路复用 </td>
+</tr>
+<tr>
+<td>5 </td>
+<td>rje </td>
+<td>远程作业入口 </td>
+</tr>
+<tr>
+<td>7 </td>
+<td>echo </td>
+<td>Echo 服务 </td>
+</tr>
+<tr>
+<td>9 </td>
+<td>discard </td>
+<td>用于连接测试的空服务 </td>
+</tr>
+<tr>
+<td>11 </td>
+<td>systat </td>
+<td>用于列举连接了的端口的系统状态 </td>
+</tr>
+<tr>
+<td>13 </td>
+<td>daytime </td>
+<td>给请求主机发送日期和时间 </td>
+</tr>
+<tr>
+<td>17 </td>
+<td>qotd </td>
+<td>给连接了的主机发送每日格言 </td>
+</tr>
+<tr>
+<td>18 </td>
+<td>msp </td>
+<td>消息发送协议 </td>
+</tr>
+<tr>
+<td>19 </td>
+<td>chargen </td>
+<td>字符生成服务；发送无止境的字符流 </td>
+</tr>
+<tr>
+<td>20 </td>
+<td>ftp-data </td>
+<td>FTP 数据端口 </td>
+</tr>
+<tr>
+<td>21 </td>
+<td>ftp </td>
+<td>文件传输协议（FTP）端口；有时被文件服务协议（FSP）使用 </td>
+</tr>
+<tr>
+<td>22 </td>
+<td>ssh </td>
+<td>安全 Shell（SSH）服务 </td>
+</tr>
+<tr>
+<td>23 </td>
+<td>telnet </td>
+<td>Telnet 服务 </td>
+</tr>
+<tr>
+<td>25 </td>
+<td>smtp </td>
+<td>简单邮件传输协议（SMTP） </td>
+</tr>
+<tr>
+<td>37 </td>
+<td>time </td>
+<td>时间协议 </td>
+</tr>
+<tr>
+<td>39 </td>
+<td>rlp </td>
+<td>资源定位协议 </td>
+</tr>
+<tr>
+<td>42 </td>
+<td>nameserver </td>
+<td>互联网名称服务 </td>
+</tr>
+<tr>
+<td>43 </td>
+<td>nicname </td>
+<td>WHOIS 目录服务 </td>
+</tr>
+<tr>
+<td>49 </td>
+<td>tacacs </td>
+<td>用于基于 TCP/IP 验证和访问的终端访问控制器访问控制系统 </td>
+</tr>
+<tr>
+<td>50 </td>
+<td>re-mail-ck </td>
+<td>远程邮件检查协议 </td>
+</tr>
+<tr>
+<td>53 </td>
+<td>domain </td>
+<td>域名服务（如 BIND） </td>
+</tr>
+<tr>
+<td>63 </td>
+<td>whois++ </td>
+<td>WHOIS++，被扩展了的 WHOIS 服务 </td>
+</tr>
+<tr>
+<td>67 </td>
+<td>bootps </td>
+<td>引导协议（BOOTP）服务；还被动态主机配置协议（DHCP）服务使用 </td>
+</tr>
+<tr>
+<td>68 </td>
+<td>bootpc </td>
+<td>Bootstrap（BOOTP）客户；还被动态主机配置协议（DHCP）客户使用 </td>
+</tr>
+<tr>
+<td>69 </td>
+<td>tftp </td>
+<td>小文件传输协议（TFTP） </td>
+</tr>
+<tr>
+<td>70 </td>
+<td>gopher </td>
+<td>Gopher 互联网文档搜寻和检索 </td>
+</tr>
+<tr>
+<td>71 </td>
+<td>netrjs-1 </td>
+<td>远程作业服务 </td>
+</tr>
+<tr>
+<td>72 </td>
+<td>netrjs-2 </td>
+<td>远程作业服务 </td>
+</tr>
+<tr>
+<td>73 </td>
+<td>netrjs-3 </td>
+<td>远程作业服务 </td>
+</tr>
+<tr>
+<td>73 </td>
+<td>netrjs-4 </td>
+<td>远程作业服务 </td>
+</tr>
+<tr>
+<td>79 </td>
+<td>finger </td>
+<td>用于用户联系信息的 Finger 服务 </td>
+</tr>
+<tr>
+<td>80 </td>
+<td>http </td>
+<td>用于万维网（WWW）服务的超文本传输协议（HTTP） </td>
+</tr>
+<tr>
+<td>88 </td>
+<td>kerberos </td>
+<td>Kerberos 网络验证系统 </td>
+</tr>
+<tr>
+<td>95 </td>
+<td>supdup </td>
+<td>Telnet 协议扩展 </td>
+</tr>
+<tr>
+<td>101 </td>
+<td>hostname </td>
+<td>SRI-NIC 机器上的主机名服务 </td>
+</tr>
+<tr>
+<td>102 </td>
+<td>iso-tsap </td>
+<td>ISO 开发环境（ISODE）网络应用 </td>
+</tr>
+<tr>
+<td>105 </td>
+<td>csnet-ns </td>
+<td>邮箱名称服务器；也被 CSO 名称服务器使用 </td>
+</tr>
+<tr>
+<td>107 </td>
+<td>rtelnet </td>
+<td>远程 Telnet </td>
+</tr>
+<tr>
+<td>109 </td>
+<td>pop2 </td>
+<td>邮局协议版本2 </td>
+</tr>
+<tr>
+<td>110 </td>
+<td>pop3 </td>
+<td>邮局协议版本3 </td>
+</tr>
+<tr>
+<td>111 </td>
+<td>sunrpc </td>
+<td>用于远程命令执行的远程过程调用（RPC）协议，被网络文件系统（NFS）使用 </td>
+</tr>
+<tr>
+<td>113 </td>
+<td>auth </td>
+<td>验证和身份识别协议 </td>
+</tr>
+<tr>
+<td>115 </td>
+<td>sftp </td>
+<td>安全文件传输协议（SFTP）服务 </td>
+</tr>
+<tr>
+<td>117 </td>
+<td>uucp-path </td>
+<td>Unix 到 Unix 复制协议（UUCP）路径服务 </td>
+</tr>
+<tr>
+<td>119 </td>
+<td>nntp </td>
+<td>用于 USENET 讨论系统的网络新闻传输协议（NNTP） </td>
+</tr>
+<tr>
+<td>123 </td>
+<td>ntp </td>
+<td>网络时间协议（NTP） </td>
+</tr>
+<tr>
+<td>137 </td>
+<td>netbios-ns </td>
+<td>在红帽企业 Linux 中被 Samba 使用的 NETBIOS 名称服务 </td>
+</tr>
+<tr>
+<td>138 </td>
+<td>netbios-dgm </td>
+<td>在红帽企业 Linux 中被 Samba 使用的 NETBIOS 数据报服务 </td>
+</tr>
+<tr>
+<td>139 </td>
+<td>netbios-ssn </td>
+<td>在红帽企业 Linux 中被 Samba 使用的NET BIOS 会话服务 </td>
+</tr>
+<tr>
+<td>143 </td>
+<td>imap </td>
+<td>互联网消息存取协议（IMAP） </td>
+</tr>
+<tr>
+<td>161 </td>
+<td>snmp </td>
+<td>简单网络管理协议（SNMP） </td>
+</tr>
+<tr>
+<td>162 </td>
+<td>snmptrap </td>
+<td>SNMP 的陷阱 </td>
+</tr>
+<tr>
+<td>163 </td>
+<td>cmip-man </td>
+<td>通用管理信息协议（CMIP） </td>
+</tr>
+<tr>
+<td>164 </td>
+<td>cmip-agent </td>
+<td>通用管理信息协议（CMIP） </td>
+</tr>
+<tr>
+<td>174 </td>
+<td>mailq </td>
+<td>MAILQ </td>
+</tr>
+<tr>
+<td>177 </td>
+<td>xdmcp </td>
+<td>X 显示管理器控制协议 </td>
+</tr>
+<tr>
+<td>178 </td>
+<td>nextstep </td>
+<td>NeXTStep 窗口服务器 </td>
+</tr>
+<tr>
+<td>179 </td>
+<td>bgp </td>
+<td>边界网络协议 </td>
+</tr>
+<tr>
+<td>191 </td>
+<td>prospero </td>
+<td>Cliffod Neuman 的 Prospero 服务 </td>
+</tr>
+<tr>
+<td>194 </td>
+<td>irc </td>
+<td>互联网中继聊天（IRC） </td>
+</tr>
+<tr>
+<td>199 </td>
+<td>smux </td>
+<td>SNMP UNIX 多路复用 </td>
+</tr>
+<tr>
+<td>201 </td>
+<td>at-rtmp </td>
+<td>AppleTalk 选路 </td>
+</tr>
+<tr>
+<td>202 </td>
+<td>at-nbp </td>
+<td>AppleTalk 名称绑定 </td>
+</tr>
+<tr>
+<td>204 </td>
+<td>at-echo </td>
+<td>AppleTalk echo 服务 </td>
+</tr>
+<tr>
+<td>206 </td>
+<td>at-zis </td>
+<td>AppleTalk 区块信息 </td>
+</tr>
+<tr>
+<td>209 </td>
+<td>qmtp </td>
+<td>快速邮件传输协议（QMTP） </td>
+</tr>
+<tr>
+<td>210 </td>
+<td>z39.50 </td>
+<td>NISO Z39.50 数据库 </td>
+</tr>
+<tr>
+<td>213 </td>
+<td>ipx </td>
+<td>互联网络分组交换协议（IPX），被 Novell Netware 环境常用的数据报协议 </td>
+</tr>
+<tr>
+<td>220 </td>
+<td>imap3 </td>
+<td>互联网消息存取协议版本3 </td>
+</tr>
+<tr>
+<td>245 </td>
+<td>link </td>
+<td>LINK </td>
+</tr>
+<tr>
+<td>347 </td>
+<td>fatserv </td>
+<td>Fatmen 服务器 </td>
+</tr>
+<tr>
+<td>363 </td>
+<td>rsvp_tunnel </td>
+<td>RSVP 隧道 </td>
+</tr>
+<tr>
+<td>369 </td>
+<td>rpc2portmap </td>
+<td>Coda 文件系统端口映射器 </td>
+</tr>
+<tr>
+<td>370 </td>
+<td>codaauth2 </td>
+<td>Coda 文件系统验证服务 </td>
+</tr>
+<tr>
+<td>372 </td>
+<td>ulistproc </td>
+<td>UNIX Listserv </td>
+</tr>
+<tr>
+<td>389 </td>
+<td>ldap </td>
+<td>轻型目录存取协议（LDAP） </td>
+</tr>
+<tr>
+<td>427 </td>
+<td>svrloc </td>
+<td>服务位置协议（SLP） </td>
+</tr>
+<tr>
+<td>434 </td>
+<td>mobileip-agent </td>
+<td>可移互联网协议（IP）代理 </td>
+</tr>
+<tr>
+<td>435 </td>
+<td>mobilip-mn </td>
+<td>可移互联网协议（IP）管理器 </td>
+</tr>
+<tr>
+<td>443 </td>
+<td>https </td>
+<td>安全超文本传输协议（HTTP） </td>
+</tr>
+<tr>
+<td>444 </td>
+<td>snpp </td>
+<td>小型网络分页协议 </td>
+</tr>
+<tr>
+<td>445 </td>
+<td>microsoft-ds </td>
+<td>通过 TCP/IP 的服务器消息块（SMB） </td>
+</tr>
+<tr>
+<td>464 </td>
+<td>kpasswd </td>
+<td>Kerberos 口令和钥匙改换服务 </td>
+</tr>
+<tr>
+<td>468 </td>
+<td>photuris </td>
+<td>Photuris 会话钥匙管理协议 </td>
+</tr>
+<tr>
+<td>487 </td>
+<td>saft </td>
+<td>简单不对称文件传输（SAFT）协议 </td>
+</tr>
+<tr>
+<td>488 </td>
+<td>gss-http </td>
+<td>用于 HTTP 的通用安全服务（GSS） </td>
+</tr>
+<tr>
+<td>496 </td>
+<td>pim-rp-disc </td>
+<td>用于协议独立的多址传播（PIM）服务的会合点发现（RP-DISC） </td>
+</tr>
+<tr>
+<td>500 </td>
+<td>isakmp </td>
+<td>互联网安全关联和钥匙管理协议（ISAKMP） </td>
+</tr>
+<tr>
+<td>535 </td>
+<td>iiop </td>
+<td>互联网内部对象请求代理协议（IIOP） </td>
+</tr>
+<tr>
+<td>538 </td>
+<td>gdomap </td>
+<td>GNUstep 分布式对象映射器（GDOMAP） </td>
+</tr>
+<tr>
+<td>546 </td>
+<td>dhcpv6-client </td>
+<td>动态主机配置协议（DHCP）版本6客户 </td>
+</tr>
+<tr>
+<td>547 </td>
+<td>dhcpv6-server </td>
+<td>动态主机配置协议（DHCP）版本6服务 </td>
+</tr>
+<tr>
+<td>554 </td>
+<td>rtsp </td>
+<td>实时流播协议（RTSP） </td>
+</tr>
+<tr>
+<td>563 </td>
+<td>nntps </td>
+<td>通过安全套接字层的网络新闻传输协议（NNTPS） </td>
+</tr>
+<tr>
+<td>565 </td>
+<td>whoami </td>
+<td>whoami </td>
+</tr>
+<tr>
+<td>587 </td>
+<td>submission </td>
+<td>邮件消息提交代理（MSA） </td>
+</tr>
+<tr>
+<td>610 </td>
+<td>npmp-local </td>
+<td>网络外设管理协议（NPMP）本地 / 分布式排队系统（DQS） </td>
+</tr>
+<tr>
+<td>611 </td>
+<td>npmp-gui </td>
+<td>网络外设管理协议（NPMP）GUI / 分布式排队系统（DQS） </td>
+</tr>
+<tr>
+<td>612 </td>
+<td>hmmp-ind </td>
+<td>HMMP 指示 / DQS </td>
+</tr>
+<tr>
+<td>631 </td>
+<td>ipp </td>
+<td>互联网打印协议（IPP） </td>
+</tr>
+<tr>
+<td>636 </td>
+<td>ldaps </td>
+<td>通过安全套接字层的轻型目录访问协议（LDAPS） </td>
+</tr>
+<tr>
+<td>674 </td>
+<td>acap </td>
+<td>应用程序配置存取协议（ACAP） </td>
+</tr>
+<tr>
+<td>694 </td>
+<td>ha-cluster </td>
+<td>用于带有高可用性的群集的心跳服务 </td>
+</tr>
+<tr>
+<td>749 </td>
+<td>kerberos-adm </td>
+<td>Kerberos 版本5（v5）的“kadmin”数据库管理 </td>
+</tr>
+<tr>
+<td>750 </td>
+<td>kerberos-iv </td>
+<td>Kerberos 版本4（v4）服务 </td>
+</tr>
+<tr>
+<td>765 </td>
+<td>webster </td>
+<td>网络词典 </td>
+</tr>
+<tr>
+<td>767 </td>
+<td>phonebook </td>
+<td>网络电话簿 </td>
+</tr>
+<tr>
+<td>873 </td>
+<td>rsync </td>
+<td>rsync 文件传输服务 </td>
+</tr>
+<tr>
+<td>992 </td>
+<td>telnets </td>
+<td>通过安全套接字层的 Telnet（TelnetS） </td>
+</tr>
+<tr>
+<td>993 </td>
+<td>imaps </td>
+<td>通过安全套接字层的互联网消息存取协议（IMAPS） </td>
+</tr>
+<tr>
+<td>994 </td>
+<td>ircs </td>
+<td>通过安全套接字层的互联网中继聊天（IRCS） </td>
+</tr>
+<tr>
+<td>995 </td>
+<td>pop3s </td>
+<td>通过安全套接字层的邮局协议版本3（POPS3） </td>
+</tr>
+</table>
+
+### Unix特有的端口
+
+以下端口是 UNIX 特有的，涉及了从电子邮件到验证不等的服务
+
+在方括号内的名称（如 [service]）是服务的守护进程名称或它的常用别名
+
+<table>
+<tr>
+<th>端口号码 / 层</th>
+<th>名称</th>
+<th>注释</th>
+</tr>
+<tr>
+<td>512/tcp </td>
+<td>exec </td>
+<td>用于对远程执行的进程进行验证 </td>
+</tr>
+<tr>
+<td>512/udp </td>
+<td>biff [comsat] </td>
+<td>异步邮件客户（biff）和服务（comsat） </td>
+</tr>
+<tr>
+<td>513/tcp </td>
+<td>login </td>
+<td>远程登录（rlogin） </td>
+</tr>
+<tr>
+<td>513/udp </td>
+<td>who [whod] </td>
+<td>登录的用户列表 </td>
+</tr>
+<tr>
+<td>514/tcp </td>
+<td>shell [cmd] </td>
+<td>不必登录的远程 shell（rshell）和远程复制（rcp） </td>
+</tr>
+<tr>
+<td>514/udp </td>
+<td>syslog </td>
+<td>UNIX 系统日志服务 </td>
+</tr>
+<tr>
+<td>515 </td>
+<td>printer [spooler] </td>
+<td>打印机（lpr）假脱机 </td>
+</tr>
+<tr>
+<td>517/udp </td>
+<td>talk </td>
+<td>远程对话服务和客户 </td>
+</tr>
+<tr>
+<td>518/udp </td>
+<td>ntalk </td>
+<td>网络交谈（ntalk），远程对话服务和客户 </td>
+</tr>
+<tr>
+<td>519 </td>
+<td>utime [unixtime] </td>
+<td>UNIX 时间协议（utime） </td>
+</tr>
+<tr>
+<td>520/tcp </td>
+<td>efs </td>
+<td>扩展文件名服务器（EFS） </td>
+</tr>
+<tr>
+<td>520/udp </td>
+<td>router [route, routed] </td>
+<td>选路信息协议（RIP） </td>
+</tr>
+<tr>
+<td>521 </td>
+<td>ripng </td>
+<td>用于互联网协议版本6（IPv6）的选路信息协议 </td>
+</tr>
+<tr>
+<td>525 </td>
+<td>timed [timeserver] </td>
+<td>时间守护进程（timed） </td>
+</tr>
+<tr>
+<td>526/tcp </td>
+<td>tempo [newdate] </td>
+<td>Tempo </td>
+</tr>
+<tr>
+<td>530/tcp </td>
+<td>courier [rpc] </td>
+<td>Courier 远程过程调用（RPC）协议 </td>
+</tr>
+<tr>
+<td>531/tcp </td>
+<td>conference [chat] </td>
+<td>互联网中继聊天 </td>
+</tr>
+<tr>
+<td>532 </td>
+<td>netnews </td>
+<td>Netnews </td>
+</tr>
+<tr>
+<td>533/udp </td>
+<td>netwall </td>
+<td>用于紧急广播的 Netwall </td>
+</tr>
+<tr>
+<td>540/tcp </td>
+<td>uucp [uucpd] </td>
+<td>Unix 到 Unix 复制服务 </td>
+</tr>
+<tr>
+<td>543/tcp </td>
+<td>klogin </td>
+<td>Kerberos 版本5（v5）远程登录 </td>
+</tr>
+<tr>
+<td>544/tcp </td>
+<td>kshell </td>
+<td>Kerberos 版本5（v5）远程 shell </td>
+</tr>
+<tr>
+<td>548 </td>
+<td>afpovertcp </td>
+<td>通过传输控制协议（TCP）的 Appletalk 文件编制协议（AFP） </td>
+</tr>
+<tr>
+<td>556 </td>
+<td>remotefs [rfs_server, rfs] </td>
+<td>Brunhoff 的远程文件系统（RFS） </td>
+</tr>
+</table>
+
+
+
