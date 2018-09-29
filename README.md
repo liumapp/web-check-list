@@ -2507,5 +2507,417 @@ web应用开发中常用的参数对照表
 </tr>
 </table>
 
+### IANA注册的端口
 
+列举了由网络和软件社区向 IANA 提交的要在端口号码列表中正式注册的端口
+
+IANA(The Internet Assigned Numbers Authority，互联网数字分配机构)是负责协调一些使Internet正常运作的机构
+
+<table>
+<tr>
+<th>端口号码 / 层</th>
+<th>名称</th>
+<th>注释</th>
+</tr>
+<tr>
+<td>1080 </td>
+<td>socks </td>
+<td>SOCKS 网络应用程序代理服务 </td>
+</tr>
+<tr>
+<td>1236 </td>
+<td>bvcontrol [rmtcfg] </td>
+<td>Garcilis Packeten 远程配置服务器</td>
+</tr>
+<tr>
+<td>1300 </td>
+<td>h323hostcallsc </td>
+<td>H.323 电话会议主机电话安全 </td>
+</tr>
+<tr>
+<td>1433 </td>
+<td>ms-sql-s </td>
+<td>Microsoft SQL 服务器 </td>
+</tr>
+<tr>
+<td>1434 </td>
+<td>ms-sql-m </td>
+<td>Microsoft SQL 监视器 </td>
+</tr>
+<tr>
+<td>1494 </td>
+<td>ica </td>
+<td>Citrix ICA 客户 </td>
+</tr>
+<tr>
+<td>1512 </td>
+<td>wins </td>
+<td>Microsoft Windows 互联网名称服务器 </td>
+</tr>
+<tr>
+<td>1524 </td>
+<td>ingreslock </td>
+<td>Ingres 数据库管理系统（DBMS）锁定服务 </td>
+</tr>
+<tr>
+<td>1525 </td>
+<td>prospero-np </td>
+<td>无特权的 Prospero </td>
+</tr>
+<tr>
+<td>1645 </td>
+<td>datametrics [old-radius] </td>
+<td>Datametrics / 从前的 radius 项目 </td>
+</tr>
+<tr>
+<td>1646 </td>
+<td>sa-msg-port [oldradacct] </td>
+<td>sa-msg-port / 从前的 radacct 项目 </td>
+</tr>
+<tr>
+<td>1649 </td>
+<td>kermit </td>
+<td>Kermit 文件传输和管理服务 </td>
+</tr>
+<tr>
+<td>1701 </td>
+<td>l2tp [l2f] </td>
+<td>第2层隧道服务（LT2P） / 第2层转发（L2F） </td>
+</tr>
+<tr>
+<td>1718 </td>
+<td>h323gatedisc </td>
+<td>H.323 电讯守门装置发现机制 </td>
+</tr>
+<tr>
+<td>1719 </td>
+<td>h323gatestat </td>
+<td>H.323 电讯守门装置状态 </td>
+</tr>
+<tr>
+<td>1720 </td>
+<td>h323hostcall </td>
+<td>H.323 电讯主持电话设置 </td>
+</tr>
+<tr>
+<td>1758 </td>
+<td>tftp-mcast </td>
+<td>小文件 FTP 组播 </td>
+</tr>
+<tr>
+<td>1759 </td>
+<td>mtftp </td>
+<td>组播小文件 FTP（MTFTP） </td>
+</tr>
+<tr>
+<td>1789 </td>
+<td>hello </td>
+<td>Hello 路由器通信端口 </td>
+</tr>
+<tr>
+<td>1812 </td>
+<td>radius </td>
+<td>Radius 拨号验证和记帐服务 </td>
+</tr>
+<tr>
+<td>1813 </td>
+<td>radius-acct </td>
+<td>Radius 记帐 </td>
+</tr>
+<tr>
+<td>1911 </td>
+<td>mtp </td>
+<td>Starlight 网络多媒体传输协议（MTP） </td>
+</tr>
+<tr>
+<td>1985 </td>
+<td>hsrp </td>
+<td>Cisco 热备用路由器协议 </td>
+</tr>
+<tr>
+<td>1986 </td>
+<td>licensedaemon </td>
+<td>Cisco 许可管理守护进程 </td>
+</tr>
+<tr>
+<td>1997 </td>
+<td>gdp-port </td>
+<td>Cisco 网关发现协议（GDP） </td>
+</tr>
+<tr>
+<td>2049 </td>
+<td>nfs [nfsd] </td>
+<td>网络文件系统（NFS） </td>
+</tr>
+<tr>
+<td>2102 </td>
+<td>zephyr-srv </td>
+<td>Zephyr 通知传输和发送服务器 </td>
+</tr>
+<tr>
+<td>2103 </td>
+<td>zephyr-clt </td>
+<td>Zephyr serv-hm 连接 </td>
+</tr>
+<tr>
+<td>2104 </td>
+<td>zephyr-hm </td>
+<td>Zephyr 主机管理器 </td>
+</tr>
+<tr>
+<td>2401 </td>
+<td>cvspserver </td>
+<td>并行版本系统（CVS）客户 / 服务器操作 </td>
+</tr>
+<tr>
+<td>2430/tcp </td>
+<td>venus </td>
+<td>用于 Coda 文件系统（codacon 端口）的 Venus 缓存管理器 </td>
+</tr>
+<tr>
+<td>2430/udp </td>
+<td>venus </td>
+<td>用于 Coda 文件系统（callback/wbc interface 界面）的 Venus 缓存管理器 </td>
+</tr>
+<tr>
+<td>2431/tcp </td>
+<td>venus-se </td>
+<td>Venus 传输控制协议（TCP）的副作用 </td>
+</tr>
+<tr>
+<td>2431/udp </td>
+<td>venus-se </td>
+<td>Venus 用户数据报协议（UDP）的副作用 </td>
+</tr>
+<tr>
+<td>2432/udp </td>
+<td>codasrv </td>
+<td>Coda 文件系统服务器端口 </td>
+</tr>
+<tr>
+<td>2433/tcp </td>
+<td>codasrv-se </td>
+<td>Coda 文件系统 TCP 副作用 </td>
+</tr>
+<tr>
+<td>2433/udp </td>
+<td>codasrv-se </td>
+<td>Coda 文件系统 UDP SFTP 副作用 </td>
+</tr>
+<tr>
+<td>2600 </td>
+<td>hpstgmgr [zebrasrv] </td>
+<td>HPSTGMGR；Zebra 选路</td>
+</tr>
+<tr>
+<td>2601 </td>
+<td>discp-client [zebra] </td>
+<td>discp 客户；Zebra 集成的 shell </td>
+</tr>
+<tr>
+<td>2602 </td>
+<td>discp-server [ripd] </td>
+<td>discp 服务器；选路信息协议守护进程（ripd） </td>
+</tr>
+<tr>
+<td>2603 </td>
+<td>servicemeter [ripngd] </td>
+<td>服务计量；用于 IPv6 的 RIP 守护进程 </td>
+</tr>
+<tr>
+<td>2604 </td>
+<td>nsc-ccs [ospfd] </td>
+<td>NSC CCS；开放式短路径优先守护进程（ospfd） </td>
+</tr>
+<tr>
+<td>2605 </td>
+<td>nsc-posa </td>
+<td>NSC POSA；边界网络协议守护进程（bgpd） </td>
+</tr>
+<tr>
+<td>2606 </td>
+<td>netmon [ospf6d] </td>
+<td>Dell Netmon；用于 IPv6 的 OSPF 守护进程（ospf6d） </td>
+</tr>
+<tr>
+<td>2809 </td>
+<td>corbaloc </td>
+<td>公共对象请求代理体系（CORBA）命名服务定位器 </td>
+</tr>
+<tr>
+<td>3130 </td>
+<td>icpv2 </td>
+<td>互联网缓存协议版本2（v2）；被 Squid 代理缓存服务器使用 </td>
+</tr>
+<tr>
+<td>3306 </td>
+<td>mysql </td>
+<td>MySQL 数据库服务 </td>
+</tr>
+<tr>
+<td>3346 </td>
+<td>trnsprntproxy </td>
+<td>Trnsprnt 代理 </td>
+</tr>
+<tr>
+<td>4011 </td>
+<td>pxe </td>
+<td>执行前环境（PXE）服务 </td>
+</tr>
+<tr>
+<td>4321 </td>
+<td>rwhois </td>
+<td>远程 Whois（rwhois）服务 </td>
+</tr>
+<tr>
+<td>4444 </td>
+<td>krb524 </td>
+<td>Kerberos 版本5（v5）到版本4（v4）门票转换器 </td>
+</tr>
+<tr>
+<td>5002 </td>
+<td>rfe </td>
+<td>无射频以太网（RFE）音频广播系统 </td>
+</tr>
+<tr>
+<td>5308 </td>
+<td>cfengine </td>
+<td>配置引擎（Cfengine） </td>
+</tr>
+<tr>
+<td>5999 </td>
+<td>cvsup [CVSup] </td>
+<td>CVSup 文件传输和更新工具 </td>
+</tr>
+<tr>
+<td>6000 </td>
+<td>x11 [X] </td>
+<td>X 窗口系统服务 </td>
+</tr>
+<tr>
+<td>7000 </td>
+<td>afs3-fileserver </td>
+<td>Andrew 文件系统（AFS）文件服务器 </td>
+</tr>
+<tr>
+<td>7001 </td>
+<td>afs3-callback </td>
+<td>用于给缓存管理器回电的 AFS 端口 </td>
+</tr>
+<tr>
+<td>7002 </td>
+<td>afs3-prserver </td>
+<td>AFS 用户和组群数据库 </td>
+</tr>
+<tr>
+<td>7003 </td>
+<td>afs3-vlserver </td>
+<td>AFS 文件卷位置数据库 </td>
+</tr>
+<tr>
+<td>7004 </td>
+<td>afs3-kaserver </td>
+<td>AFS Kerberos 验证服务 </td>
+</tr>
+<tr>
+<td>7005 </td>
+<td>afs3-volser </td>
+<td>AFS 文件卷管理服务器 </td>
+</tr>
+<tr>
+<td>7006 </td>
+<td>afs3-errors </td>
+<td>AFS 错误解释服务 </td>
+</tr>
+<tr>
+<td>7007 </td>
+<td>afs3-bos </td>
+<td>AFS 基本监查进程 </td>
+</tr>
+<tr>
+<td>7008 </td>
+<td>afs3-update </td>
+<td>AFS 服务器到服务器更新器 </td>
+</tr>
+<tr>
+<td>7009 </td>
+<td>afs3-rmtsys </td>
+<td>AFS 远程缓存管理器服务 </td>
+</tr>
+<tr>
+<td>9876 </td>
+<td>sd </td>
+<td>会话指引器 </td>
+</tr>
+<tr>
+<td>10080 </td>
+<td>amanda </td>
+<td>高级 Maryland 自动网络磁盘归档器（Amanda）备份服务 </td>
+</tr>
+<tr>
+<td>11371 </td>
+<td>pgpkeyserver </td>
+<td>良好隐私（PGP） / GNU 隐私卫士（GPG）公钥服务器 </td>
+</tr>
+<tr>
+<td>11720 </td>
+<td>h323callsigalt </td>
+<td>H.323 调用信号交替 </td>
+</tr>
+<tr>
+<td>13720 </td>
+<td>bprd </td>
+<td>Veritas NetBackup 请求守护进程（bprd） </td>
+</tr>
+<tr>
+<td>13721 </td>
+<td>bpdbm </td>
+<td>Veritas NetBackup 数据库管理器（bpdbm） </td>
+</tr>
+<tr>
+<td>13722 </td>
+<td>bpjava-msvc </td>
+<td>Veritas NetBackup Java / Microsoft Visual C++ (MSVC) 协议 </td>
+</tr>
+<tr>
+<td>13724 </td>
+<td>vnetd </td>
+<td>Veritas 网络工具 </td>
+</tr>
+<tr>
+<td>13782 </td>
+<td>bpcd </td>
+<td>Vertias NetBackup </td>
+</tr>
+<tr>
+<td>13783 </td>
+<td>vopied </td>
+<td>Veritas VOPIED 协议 </td>
+</tr>
+<tr>
+<td>22273 </td>
+<td>wnn6 [wnn4] </td>
+<td>假名/汉字转换系统</td>
+</tr>
+<tr>
+<td>26000 </td>
+<td>quake </td>
+<td>Quake（以及相关的）多人游戏服务器 </td>
+</tr>
+<tr>
+<td>26208 </td>
+<td>wnn6-ds </td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>33434 </td>
+<td>traceroute </td>
+<td>Traceroute 网络跟踪工具 </td>
+</tr>
+<tr>
+<td colspan="3">注:<br> /etc/services中的注释如下：端口1236被注册为“bvcontrol”，但是它也被 Gracilis Packeten 远程配置服务器使用。正式名称被列为主要名称，未注册的名称被列为别名。
+<br>在/etc/services中的注释：端口 2600 到 2606 被 zebra 软件包未经注册而使用。主要名称是被注册的名称，被 zebra 使用的未注册名称被列为别名。
+<br>/etc/services 文件中的注释：该端口被注册为 wnn6，但是还在 FreeWnn 软件包中使用了未注册的“wnn4”。<br></td>
+</tr>
+</table>
 
