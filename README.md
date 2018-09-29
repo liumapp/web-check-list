@@ -1,5 +1,8 @@
 # Web Check List
+
 web应用开发中常用的参数对照表
+
+持续更新中，欢迎PR
 
 * [Http Content-type](#http-content-type)
 * [Html转意字符](#html转意字符)
